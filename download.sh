@@ -8,4 +8,4 @@ echo "will download this image from: registry.cn-hangzhou.aliyuncs.com/soolaugus
 docker pull registry.cn-hangzhou.aliyuncs.com/soolaugust/image:${gen_image}
 docker tag registry.cn-hangzhou.aliyuncs.com/soolaugust/image:${gen_image} ${image}
 docker rmi registry.cn-hangzhou.aliyuncs.com/soolaugust/image:${gen_image}
-echo -e ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> download successfully!\n    "
+echo -e ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> download successfully!\n     "
